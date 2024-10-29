@@ -49,7 +49,7 @@ export default function Certifications() {
       {/* Ingredients Image at Bottom */}
       <div className="w-full max-w-4xl px-4">
         <Image
-          src="/label.JPG" // Replace with the path to the ingredients image
+          src="/label.JPG"
           alt="Ingredients Label"
           width={1000}
           height={200}
@@ -67,13 +67,13 @@ export default function Certifications() {
 
       {/* WhatsApp Icon */}
       <a
-        href="https://wa.me/+919876543210" // Replace with your actual WhatsApp number (country code without +)
+        href="https://wa.me/+919876543210"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed left-4 bottom-4 z-20"
       >
         <img
-          src="/WhatsApp.svg.webp" // Replace with your WhatsApp logo image path
+          src="/WhatsApp.svg.webp"
           alt="WhatsApp"
           className="h-16 w-16 rounded-full shadow-lg transition-transform duration-300 hover:scale-110"
         />

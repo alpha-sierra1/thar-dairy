@@ -26,7 +26,7 @@ export default function Home() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : -30 }}
           transition={{ duration: 1 }}
-          className="text-6xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-red-800 drop-shadow-lg tracking-tight"
+          className="text-5xl sm:text-6xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-red-800 drop-shadow-lg tracking-tight"
         >
           Thar Dairy
         </motion.h1>
@@ -35,7 +35,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 30 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="mt-4 text-xl md:text-3xl text-gray-200 drop-shadow-md max-w-lg tracking-wide"
+          className="mt-4 text-lg sm:text-xl md:text-3xl text-gray-200 drop-shadow-md max-w-lg tracking-wide"
         >
           Discover the Richness of Authentic, Natural Ghee
         </motion.p>
@@ -45,7 +45,7 @@ export default function Home() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: isInView ? 1 : 0, scale: isInView ? 1 : 0.9 }}
           transition={{ duration: 1, delay: 1 }}
-          className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl"
+          className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl"
         >
           {/* Card 1: Quality Ingredients */}
           <motion.div
@@ -96,13 +96,13 @@ export default function Home() {
 
       {/* WhatsApp Icon */}
       <a
-        href="https://wa.me/+919876543210" // Replace with your actual WhatsApp number (country code without +)
+        href="https://wa.me/+919876543210"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed left-4 bottom-4 z-20"
       >
         <img
-          src="/WhatsApp.svg.webp" // Replace with your WhatsApp logo image path
+          src="/WhatsApp.svg.webp"
           alt="WhatsApp"
           className="h-16 w-16 rounded-full shadow-lg transition-transform duration-300 hover:scale-110"
         />

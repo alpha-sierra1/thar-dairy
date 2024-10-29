@@ -63,7 +63,7 @@ export default function ProductShowcase() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, rgba(255, 165, 0, 0.5), rgba(255, 255, 255, 0.8))", // Orange gradient
+            "linear-gradient(180deg, rgba(255, 165, 0, 0.5), rgba(255, 255, 255, 0.8))",
           zIndex: 1,
         }}
       />
@@ -135,24 +135,19 @@ export default function ProductShowcase() {
             <p className="text-xl font-semibold text-red-800">
               {comboProduct.price}
             </p>
-            {/* <div className="mt-4">
-              <button className="bg-orange-400 text-white font-semibold py-2 px-4 rounded-lg hover:bg-orange-500 transition">
-                Learn More
-              </button>
-            </div> */}
           </div>
         </div>
       </motion.div>
 
       {/* WhatsApp Icon */}
       <a
-        href="https://wa.me/+919876543210" // Replace with your actual WhatsApp number (country code without +)
+        href="https://wa.me/+919876543210"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed left-4 bottom-4 z-20"
       >
         <img
-          src="/WhatsApp.svg.webp" // Replace with your WhatsApp logo image path
+          src="/WhatsApp.svg.webp"
           alt="WhatsApp"
           className="h-16 w-16 rounded-full shadow-lg transition-transform duration-300 hover:scale-110"
         />

@@ -9,7 +9,7 @@ export default function Contact() {
       <section className="relative bg-[url('/thar-contact2.jpg')] bg-cover bg-no-repeat bg-center h-[550px] flex items-center justify-center">
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="py-16 px-4 mx-auto max-w-screen-xl text-center lg:py-32 lg:px-12 z-10">
-          <h1 className="text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             How to reach us?
           </h1>
         </div>

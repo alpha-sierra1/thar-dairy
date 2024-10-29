@@ -4,7 +4,7 @@ const stats = [
   { name: "Pure Ghee", value: "100%" },
   { name: "Smooth Delivery", value: "24/7" },
   { name: "Reasonable Price", value: "₹1650/kg" },
-  { name: "Easy Access", value: "Everywhere" },
+  { name: "In India", value: "Everywhere" },
 ];
 
 export default function Example() {
