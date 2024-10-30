@@ -1,11 +1,9 @@
 name: Deploy Next.js site to GitHub Pages
 
 on:
-  # Runs on pushes to the main branch
   push:
     branches: ["main"]
 
-  # Allows manual triggering from the Actions tab
   workflow_dispatch:
 
 permissions:
@@ -29,7 +27,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm" # Cache npm dependencies
+          cache: "npm"
 
       - name: Install dependencies
         run: npm install
@@ -40,7 +38,7 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out # Specifies the 'out' directory as the static output
+          path: ./next
 
   # Deployment job
   deploy:
