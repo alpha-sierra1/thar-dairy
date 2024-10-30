@@ -16,7 +16,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -38,9 +37,8 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./next
+          path: ./.next
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
